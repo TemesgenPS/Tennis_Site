@@ -1,0 +1,91 @@
+.list-group-item:hover {
+    background-color: #3A5A40;
+    cursor: pointer
+}
+
+.list-group-item {
+    width: 100%;
+    background-color: #A3B18A;
+}
+body {
+    background-color: #588157;
+}
+
+.card {
+    width: 100%;
+    background-color: #A3B18A;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    min-height: 35vh;
+}
+
+.card-text {
+    margin-bottom: 0.25rem;
+}
+
+table {
+    margin-top: 10px;
+}
+
+.custom-table {
+    background-color: #A3B18A;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.custom-table thead {
+    background-color: #3A5A40;
+    color: white;
+}
+
+.custom-table th,
+.custom-table td {
+    border-color: #588157;
+    color: #344E41;
+}
+
+.custom-table tbody tr {
+    background-color: #A3B18A;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #6A9F7D;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #B5C7A3;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.site-footer {
+    background-color: #3A5A40;
+    color: #A3B18A;
+    font-size: 0.9rem;
+    border-top: 2px solid #344E41;
+}
+
+.site-footer a {
+    color: #A3B18A; /* if I ever add links, this should keep them same color */
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+

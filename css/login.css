@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #588157;
+}
+
+img{
+    box-shadow: none;
+    display: block;
+}
+
+.login-box{
+    background-color:#A3B18A;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-button{
+    background-color: #3A5A40;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 30px;
+}
+
+#login-button:hover{
+    background-color: #344E41;
+    animation: pulse 0.4s ease-in-out;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+

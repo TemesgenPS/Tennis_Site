@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UserPage - TennisApp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel=stylesheet href="../css/bssite.css">
+
+</head>
+    <body>
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Tennis Comp</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#">Profile</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Matches</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid mt-5">
+
+        <!-- Top Row - Profile + Info-->
+            <div class="row mb-4">
+                <!-- Left Box: Profile Picture & Name -->
+                <div class="col-md-4 mb-3 d-flex">
+                    <div class="card text-center p-3 h-100">
+                        <div class="card-body">
+                            <img src="profile-image.png" alt="profile picture" class="img-fluid mb-3 d-block mx-auto" style="width:180px; height:130px; object-fit:cover;">
+                            <h4 class="card-title" style="color: #344E41; font-weight: bold;">Barnacle Phillips</h4>
+                            <p class="card-text"> UTR Rating: 2.5<br>
+                                    @BarnPhil</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Box: User Info -->
+                <div class="col-md-8 mb-3 d-flex">
+                    <div class="card p-3 h-100">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #344E41; font-weight: bold;">User Information</h5>
+                            <p><strong>Email:</strong> barnphil@example.com</p>
+                            <p><strong>Location:</strong> Bronx, New York</p>
+                            <p><strong>Joined:</strong> January 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Row: Summary + To-Do-->
+            <div class="row">
+                <!-- Summary -->
+                <div class="col-md-6 mb-3 d-flex">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #344E41; font-weight: bold;">Summary</h5>
+                            <p class="card-text"> I’m Barnacle Phillips 🎾
+                                Tennis is my passion, I love playing, watching, and learning more about the game every day. When I’m not on the court, I’m catching matches, practicing my serve, or just talking tennis with friends.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- To-Do -->
+                <div class="col-md-6 mb-3 d-flex">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #344E41; font-weight: bold;">To-Do List</h5>
+
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="todo-check" type="checkbox" id="todo1">
+                                        <label class="todo-check-label" for="todo1">
+                                            Complete profile setup
+                                        </label>
+                                    </div>
+
+                                    </li>
+
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="todo-check" type="checkbox" id="todo2">
+                                        <label class="todo-check-label" for="todo2">
+                                            Update profile picture
+                                        </label>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="todo-check" type="checkbox" id="todo3">
+                                        <label class="todo-check-label" for="todo3">
+                                        Finish onboarding tutorial
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Match History Table -->
+                <div class="row mt-4 mb-4">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: #344E41; font-weight: bold;">Match History</h5>
+
+                                <table class="table custom-table">
+                                <thead>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>Opponent</th>
+                                        <th>Result</th>
+                                        <th>Score</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>Jan 5, 2026</td>
+                                        <td>Elike</td>
+                                        <td>Loss</td>
+                                        <td>0-6, 2-6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jan 12, 2026</td>
+                                        <td>Davon</td>
+                                        <td>Loss</td>
+                                        <td>1–6, 5–7</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jan 18, 2026</td>
+                                        <td>Nadal</td>
+                                        <td>Loss</td>
+                                        <td>3-6, 6–2, 0-6</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="site-footer mt-5">
+            <div class="container text-center py-3">
+                &copy; 2026 TennisComp. All rights reserved.
+            </div>
+        </footer>
+
+    </body>
+</html>
