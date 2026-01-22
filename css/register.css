@@ -87,3 +87,38 @@ h1 {
     border: 2px solid #3A5A40;
 }
 
+.themed-link {
+    color: #A3B18A;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.themed-link:hover {
+    color: #3A5A40;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link-group {
+    text-align: center;
+}
+
+.demo-button {
+    display: inline-block;
+    background-color: #A3B18A;
+    color: #344E41;
+    padding: 8px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.demo-button:hover {
+    background-color: #3A5A40;
+    color: #A3B18A;
+    cursor: pointer;
+}
