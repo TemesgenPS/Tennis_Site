@@ -17,6 +17,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card-body {
     display: flex;
@@ -62,10 +63,6 @@ table {
 
 .custom-table tbody tr:nth-child(even) {
     background-color: #B5C7A3;
-}
-
-.card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {

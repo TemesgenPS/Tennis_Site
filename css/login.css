@@ -6,11 +6,6 @@ body{
     background-color: #588157;
 }
 
-img{
-    box-shadow: none;
-    display: block;
-}
-
 .login-box{
     background-color:#A3B18A;
     padding: 30px 40px;
